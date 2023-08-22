@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Safe Tour</title>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__logo">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="header__logo"
+                        />
+                    </a>
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/images/logo-mobile.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/images/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
+
+                    <nav class="header-navbar">
+                        <ul class="header-navbar__list">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="header-navbar__item header-navbar__item--actived"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./about.html"
+                                    class="header-navbar__item"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Pages
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="header-action__btn btn">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile header -->
+
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="#!">
+                    <img
+                        src="./assets/images/logo-mobile.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="menu-item__mobile">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Destinations</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__show-mobile">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__wrap">
+                            <div class="hero-content">
+                                <h1 class="hero__heading">
+                                    Let's Make Your Best Trip Ever
+                                </h1>
+                                <p class="hero__desc">
+                                    Plan and book your perfect trip with expert
+                                    advice, travel tips, destination information
+                                    and inspiration from us.
+                                </p>
+                                <div class="hero-action">
+                                    <a href="#!" class="hero-action__btn btn">
+                                        Discover Now
+                                    </a>
+                                    <a href="#!" class="hero-action-group">
+                                        <img
+                                            src="./assets/images/Play.svg"
+                                            alt=""
+                                            class="hero-action__icon-img"
+                                        />
+                                        <img
+                                            src="./assets/images/play-mobile.svg"
+                                            alt=""
+                                            class="hero-action__icon-mobile"
+                                        />
+                                        <span class="hero-action__more">
+                                            Learn More
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hero-media">
+                                <img
+                                    src="./assets/images/hero-image.png"
+                                    alt=""
+                                    class="hero-media__image"
+                                />
+                                <div class="hero-media__info">
+                                    <div class="hero-media-time-group">
+                                        <img
+                                            src="./assets/images/hero-circle.svg"
+                                            alt=""
+                                            class="hero-media__circle"
+                                        />
+                                        <img
+                                            src="./assets/images/mobile-circle.svg"
+                                            alt=""
+                                            class="hero-media__mobile-circle"
+                                        />
+                                        <p class="hero-media__time">
+                                            39
+                                            <span>Times traveled</span>
+                                        </p>
+                                    </div>
+                                    <p class="hero-media__trip">
+                                        224
+                                        <span>Total trip (month)</span>
+                                    </p>
+                                </div>
+
+                                <img
+                                    src="./assets/images/stats.svg"
+                                    alt=""
+                                    class="hero-media__stats"
+                                />
+                                <img
+                                    src="./assets/images/hero-decor.svg"
+                                    alt=""
+                                    class="hero-media__decore"
+                                />
+                                <img
+                                    src="./assets/images/hero-decor-mobile.svg"
+                                    alt=""
+                                    class="hero-media__mobile-decore"
+                                />
+                            </div>
+                        </div>
+                        <form
+                            action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                            class="hero-form"
+                            autocomplete="off"
+                            method="post"
+                        >
+                            <div class="hero-form__item">
+                                <label for="location" class="hero-form__label">
+                                    Location
+                                </label>
+                                <select
+                                    name="location"
+                                    id="location"
+                                    class="hero-form__select"
+                                >
+                                    <option value="Bali, Indonesia">
+                                        Bali, Indonesia
+                                    </option>
+                                    <option value="Barcelona">Barcelona</option>
+                                    <option value="Hồ Chí Minh">
+                                        Hồ Chí Minh
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="hero-form__item">
+                                <label for="City" class="hero-form__label">
+                                    City
+                                </label>
+                                <select
+                                    name="City"
+                                    id="City"
+                                    class="hero-form__select"
+                                >
+                                    <option value="Bali, Indonesia">
+                                        Prambanan
+                                    </option>
+                                    <option value="Barcelona">Barcelona</option>
+                                    <option value="Hồ Chí Minh">
+                                        Hồ Chí Minh
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="hero-form__item">
+                                <label for="Guest" class="hero-form__label">
+                                    Guest
+                                </label>
+                                <select
+                                    name="Guest"
+                                    id="Guest"
+                                    class="hero-form__select"
+                                >
+                                    <option value="8 Persons">8 Persons</option>
+                                    <option value="10 Persons">
+                                        10 Persons
+                                    </option>
+                                    <option value="15 Persons">
+                                        15 Persons
+                                    </option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="hero-form__submit btn">
+                                <img
+                                    src="./assets/images/search form.svg"
+                                    alt=""
+                                    class="hero-form__search"
+                                />
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <section class="tour">
+                <div class="container">
+                    <section class="tour-top">
+                        <div class="tour-content">
+                            <h2 class="tour__heading">Our Best Tour</h2>
+                            <p class="tour__desc">
+                                These are also locations where it’s easy to feel
+                                healthier, happier and less stressed than in
+                                America. And for more destinations on the Global
+                                Retirement Index.
+                            </p>
+                        </div>
+                        <a href="#!" class="btn tour__btn">See all tours</a>
+                    </section>
+                    <div class="tour-list">
+                        <!-- item 1 -->
+                        <article class="tour-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/images/tour1.jpg"
+                                    alt=""
+                                    class="tour-item__image"
+                                />
+                            </a>
+                            <div class="tour-item-content">
+                                <p class="tour-item-content__price">$150/day</p>
+                                <p>
+                                    <a
+                                        href="#!"
+                                        class="tour-item-content__tour-name"
+                                        >Cairns Travel</a
+                                    >
+                                </p>
+                                <div class="tour-item-content__info">
+                                    <p class="tour-item-content__local">
+                                        <img
+                                            src="./assets/images/tour-icon1.svg"
+                                            alt=""
+                                            class="tour-item-content__icon"
+                                        />
+                                        Calrns QLD, Australia
+                                    </p>
+                                    <div class="tour-item-content__detail">
+                                        <p class="tour-item-content__times">
+                                            <img
+                                                src="./assets/images/tour-icon2.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            Oct 28, 2021
+                                        </p>
+                                        <p class="tour-item-content__day">
+                                            <img
+                                                src="./assets/images/tour-icon3.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            5 Days
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- item 2 -->
+                        <article class="tour-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/images/tour2.jpg"
+                                    alt=""
+                                    class="tour-item__image"
+                                />
+                            </a>
+                            <div class="tour-item-content">
+                                <p class="tour-item-content__price">$110/day</p>
+                                <p>
+                                    <a
+                                        href="#!"
+                                        class="tour-item-content__tour-name"
+                                        >Orlando Travel</a
+                                    >
+                                </p>
+                                <div class="tour-item-content__info">
+                                    <p class="tour-item-content__local">
+                                        <img
+                                            src="./assets/images/tour-icon1.svg"
+                                            alt=""
+                                            class="tour-item-content__icon"
+                                        />
+                                        Orlando, FL, USA
+                                    </p>
+                                    <div class="tour-item-content__detail">
+                                        <p class="tour-item-content__times">
+                                            <img
+                                                src="./assets/images/tour-icon2.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            Jul 30,2021
+                                        </p>
+                                        <p class="tour-item-content__day">
+                                            <img
+                                                src="./assets/images/tour-icon3.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            3 Days
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- item 3 -->
+                        <article class="tour-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/images/tour3.jpg"
+                                    alt=""
+                                    class="tour-item__image"
+                                />
+                            </a>
+                            <div class="tour-item-content">
+                                <p class="tour-item-content__price">$136/day</p>
+                                <p>
+                                    <a
+                                        href="#!"
+                                        class="tour-item-content__tour-name"
+                                        >Malaysia</a
+                                    >
+                                </p>
+                                <div class="tour-item-content__info">
+                                    <p class="tour-item-content__local">
+                                        <img
+                                            src="./assets/images/tour-icon1.svg"
+                                            alt=""
+                                            class="tour-item-content__icon"
+                                        />
+                                        Malaisia
+                                    </p>
+                                    <div class="tour-item-content__detail">
+                                        <p class="tour-item-content__times">
+                                            <img
+                                                src="./assets/images/tour-icon2.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            Jul 29, 2021
+                                        </p>
+                                        <p class="tour-item-content__day">
+                                            <img
+                                                src="./assets/images/tour-icon3.svg"
+                                                alt=""
+                                                class="tour-item-content__icon"
+                                            />
+                                            5 Days
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="choose">
+                <div class="container">
+                    <div class="choose-inner">
+                        <img
+                            src="./assets/images/choose1.jpg"
+                            alt=""
+                            class="choose__img"
+                        />
+                        <section class="choose-content">
+                            <h2 class="choose__heading">Why Choose Us?</h2>
+                            <p class="choose__desc">
+                                We make all the process easy. Dummy text ever
+                                since the is, when an unknown printer took.
+                            </p>
+
+                            <div class="choose-list">
+                                <!-- item 1 -->
+                                <div class="choose-item">
+                                    <div class="choose-item__img-icon">
+                                        <img
+                                            src="./assets/images/choose-icon1.svg"
+                                            alt=""
+                                            class="choose-item__icon"
+                                        />
+                                        <img
+                                            src="./assets/images/choose-icon-mobile1.svg"
+                                            alt=""
+                                            class="choose-item__mobile-icon"
+                                        />
+                                    </div>
+                                    <div class="choose-item__content">
+                                        <h3 class="choose-item__heading">
+                                            We make all the process easy
+                                        </h3>
+                                        <p class="choose-item__desc">
+                                            A galley of type and scrambled it to
+                                            make a type when an unknown printer
+                                            took
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- item 2 -->
+                                <div class="choose-item">
+                                    <div class="choose-item__img-icon">
+                                        <img
+                                            src="./assets/images/choose-icon2.svg"
+                                            alt=""
+                                            class="choose-item__icon"
+                                        />
+                                        <img
+                                            src="./assets/images/choose-icon-mobile2.svg"
+                                            alt=""
+                                            class="choose-item__mobile-icon"
+                                        />
+                                    </div>
+                                    <div class="choose-item__content">
+                                        <h3 class="choose-item__heading">
+                                            Private & Customized Tours
+                                        </h3>
+                                        <p class="choose-item__desc">
+                                            A galley of type and scrambled it to
+                                            make a type when an unknown printer
+                                            took
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- item 3 -->
+                                <div class="choose-item">
+                                    <div class="choose-item__img-icon">
+                                        <img
+                                            src="./assets/images/choose-icon3.svg"
+                                            alt=""
+                                            class="choose-item__icon"
+                                        />
+
+                                        <img
+                                            src="./assets/images/choose-icon-mobile3.svg"
+                                            alt=""
+                                            class="choose-item__mobile-icon"
+                                        />
+                                    </div>
+                                    <div class="choose-item__content">
+                                        <h3 class="choose-item__heading">
+                                            Immigration & Passport Help
+                                        </h3>
+                                        <p class="choose-item__desc">
+                                            A galley of type and scrambled it to
+                                            make a type when an unknown printer
+                                            took
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <section class="trending">
+                <div class="container">
+                    <section class="trending-top">
+                        <div class="trending-content">
+                            <h2 class="trending__heading">Trending 2022</h2>
+                            <p class="trending__desc">
+                                Sost Brilliant reasons Entrada should be your
+                                one-stop-shop!
+                            </p>
+                        </div>
+                        <button class="trending-button">
+                            <div class="trending-button__wrap">
+                                <svg
+                                    width="16"
+                                    height="8"
+                                    viewBox="0 0 16 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0.183313 4.31741C0.183501 4.3176 0.183657 4.31782 0.183875 4.318L3.44963 7.568C3.69428 7.81147 4.09 7.81056 4.33353 7.56588C4.57703 7.32122 4.57609 6.9255 4.33144 6.682L2.13881 4.5L15.375 4.50001C15.7202 4.50001 16 4.22019 16 3.87501C16 3.52982 15.7202 3.25001 15.375 3.25001L2.13884 3.25001L4.33141 1.06801C4.57606 0.824509 4.577 0.428791 4.3335 0.184134C4.08997 -0.0605842 3.69422 -0.0614277 3.44959 0.18201L0.183844 3.43201C0.183656 3.43219 0.1835 3.43241 0.183281 3.4326C-0.0615002 3.67691 -0.0607182 4.07391 0.183313 4.31741Z"
+                                        fill="currentcolor"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="trending-button__wrap">
+                                <svg
+                                    width="16"
+                                    height="8"
+                                    viewBox="0 0 16 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M15.8167 3.43259C15.8165 3.4324 15.8163 3.43218 15.8161 3.43199L12.5504 0.181998C12.3057 -0.0614707 11.91 -0.0605647 11.6665 0.184123C11.423 0.428779 11.4239 0.824497 11.6686 1.068L13.8612 3.24999H0.625C0.279813 3.24999 0 3.52981 0 3.87499C0 4.22018 0.279813 4.49999 0.625 4.49999H13.8612L11.6686 6.68199C11.4239 6.92549 11.423 7.32121 11.6665 7.56586C11.91 7.81058 12.3058 7.81143 12.5504 7.56799L15.8162 4.31799C15.8163 4.31781 15.8165 4.31759 15.8167 4.3174C16.0615 4.07309 16.0607 3.67609 15.8167 3.43259Z"
+                                        fill="currentcolor"
+                                    />
+                                </svg>
+                            </div>
+                        </button>
+                    </section>
+                    <div class="trending-list">
+                        <!-- item 1 -->
+                        <div class="trending-item">
+                            <a href="">
+                                <img
+                                    src="./assets/images/trending1.jpg"
+                                    alt=""
+                                    class="trending-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a href="#!" class="trending-item__heading">
+                                    Mountain Hiking Tour
+                                </a>
+                            </h3>
+                            <p class="trending-item__desc">
+                                12 Places <span>3 Activites</span>
+                            </p>
+                            <div class="trending-item__action">
+                                <span class="trending-item__action-price"
+                                    >$895.50</span
+                                >
+
+                                <a
+                                    href="#!"
+                                    class="trending-item__action-btn btn"
+                                >
+                                    Book Now</a
+                                >
+                            </div>
+                            <div class="trending-item__info">
+                                <div class="trending-item__info-logo">
+                                    <p class="trending-item__info-logo-text">
+                                        <span>ST</span>
+                                    </p>
+                                </div>
+                                <p class="trending-item__info-desc">
+                                    Safe Tour Agency
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 2 -->
+                        <div class="trending-item">
+                            <a href="">
+                                <img
+                                    src="./assets/images/trending2.jpg"
+                                    alt=""
+                                    class="trending-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a href="#!" class="trending-item__heading">
+                                    Tran Skyline
+                                </a>
+                            </h3>
+                            <p class="trending-item__desc">
+                                12 Places <span>3 Activites</span>
+                            </p>
+                            <div class="trending-item__action">
+                                <span class="trending-item__action-price">
+                                    $769.99
+                                </span>
+
+                                <a
+                                    href="#!"
+                                    class="trending-item__action-btn btn"
+                                >
+                                    Book Now
+                                </a>
+                            </div>
+                            <div class="trending-item__info">
+                                <div class="trending-item__info-logo">
+                                    <p class="trending-item__info-logo-text">
+                                        <span>ST</span>
+                                    </p>
+                                </div>
+                                <p class="trending-item__info-desc">
+                                    Safe Tour Agency
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 3 -->
+                        <div class="trending-item">
+                            <a href="">
+                                <img
+                                    src="./assets/images/trending3.jpg"
+                                    alt=""
+                                    class="trending-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a href="#!" class="trending-item__heading">
+                                    Forest Wild Life
+                                </a>
+                            </h3>
+                            <p class="trending-item__desc">
+                                12 Places <span>3 Activites</span>
+                            </p>
+                            <div class="trending-item__action">
+                                <span class="trending-item__action-price">
+                                    $939.80
+                                </span>
+
+                                <a
+                                    href="#!"
+                                    class="trending-item__action-btn btn"
+                                >
+                                    Book Now
+                                </a>
+                            </div>
+                            <div class="trending-item__info">
+                                <div class="trending-item__info-logo">
+                                    <p class="trending-item__info-logo-text">
+                                        <span>ST</span>
+                                    </p>
+                                </div>
+                                <p class="trending-item__info-desc">
+                                    Safe Tour Agency
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="destination">
+                <div class="container">
+                    <div class="destination-top">
+                        <div class="destination-content">
+                            <h2 class="destination__heading">
+                                Top Destination
+                            </h2>
+                            <div class="destination__desc">
+                                Sost Brilliant reasons Entrada should be your
+                                one-stop-shop!
+                            </div>
+                        </div>
+                        <a href="#!" class="destination__btn btn">
+                            See all destination
+                        </a>
+                    </div>
+                    <div class="destination-media">
+                        <div class="destination-left">
+                            <div class="destination-left-group">
+                                <div
+                                    class="destination-left-group__item1 destination__item"
+                                >
+                                    <p class="destination__start">
+                                        <span>3.5</span>
+                                    </p>
+                                    <p class="destination__locate">
+                                        Vientam
+                                        <span>Worefall</span>
+                                    </p>
+                                </div>
+                                <div
+                                    class="destination-left-group__item2 destination__item"
+                                >
+                                    <p class="destination__start">
+                                        <span>3.5</span>
+                                    </p>
+                                    <p class="destination__locate">
+                                        Vientam
+                                        <span>Worefall</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="destination-left-group__item3 destination__item"
+                            >
+                                <p class="destination__start">
+                                    <span>3.5</span>
+                                </p>
+                                <p class="destination__locate">
+                                    Vientam
+                                    <span>Worefall</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="destination-right">
+                            <div
+                                class="destination-right-group__item1 destination__item"
+                            >
+                                <p class="destination__start">
+                                    <span>3.5</span>
+                                </p>
+                                <p class="destination__locate">
+                                    Vientam
+                                    <span>Worefall</span>
+                                </p>
+                            </div>
+                            <div class="destination-right-group">
+                                <div
+                                    class="destination-right-group__item2 destination__item"
+                                >
+                                    <p class="destination__start">
+                                        <span>3.5</span>
+                                    </p>
+                                    <p class="destination__locate">
+                                        Vientam
+                                        <span>Worefall</span>
+                                    </p>
+                                </div>
+                                <div
+                                    class="destination-right-group__item3 destination__item"
+                                >
+                                    <p class="destination__start">
+                                        <span>3.5</span>
+                                    </p>
+                                    <p class="destination__locate">
+                                        Vientam
+                                        <span>Worefall</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="type">
+                <div class="container">
+                    <h2 class="type__heading">Tour Type</h2>
+                    <div class="type-list">
+                        <a href="#!" class="type-item">
+                            <img
+                                src="./assets/images/type1.svg"
+                                alt=""
+                                class="type-item__icon"
+                            />
+                            <p class="type-item__desc">City Tours</p>
+                            <p class="type-item__detail">
+                                5 Tours- From <span>550$</span>
+                            </p>
+                        </a>
+
+                        <a href="#!" class="type-item">
+                            <img
+                                src="./assets/images/type2.svg"
+                                alt=""
+                                class="type-item__icon"
+                            />
+                            <p class="type-item__desc">Beaches</p>
+                            <p class="type-item__detail">
+                                10 Tours- From <span> 250$</span>
+                            </p>
+                        </a>
+
+                        <a href="#!" class="type-item">
+                            <img
+                                src="./assets/images/type3.svg"
+                                alt=""
+                                class="type-item__icon"
+                            />
+                            <p class="type-item__desc">Museum Tours</p>
+                            <p class="type-item__detail">
+                                5 Tours- From <span>399$</span>
+                            </p>
+                        </a>
+
+                        <a href="#!" class="type-item">
+                            <img
+                                src="./assets/images/type4.svg"
+                                alt=""
+                                class="type-item__icon"
+                            />
+                            <p class="type-item__desc">CCruises</p>
+                            <p class="type-item__detail">
+                                8 Tours- From
+
+                                <span>850$</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="container">
+                    <div class="feedback-inner">
+                        <div class="feedback-media">
+                            <img
+                                src="./assets/images/feedback-img.png"
+                                alt=""
+                                class="feedback__image"
+                            />
+                            <img
+                                src="./assets/images/feedback-mobile-img.png"
+                                alt=""
+                                class="feedback__mobile-image"
+                            />
+
+                            <div class="feedback-media__circle"></div>
+                            <img
+                                src="./assets/images/feedback-decor.png"
+                                alt=""
+                                class="feedback__decor"
+                            />
+                            <img
+                                src="./assets/images/mobile-decor.png"
+                                alt=""
+                                class="feedback__mobile-decor"
+                            />
+                        </div>
+
+                        <div class="feedback-content">
+                            <div class="feedback-item">
+                                <h2 class="feedback__heading">
+                                    What our user say
+                                </h2>
+                                <q class="feedback__rate"
+                                    >“Adding live social proof was the #1 driver
+                                    of increased revenue in all my experiments
+                                    while at Airkey.” and the bran must survive
+                                    atleast 1 year.
+                                </q>
+                                <div class="feedback-author">
+                                    <img
+                                        src="./assets/images/feedback-author.jpg"
+                                        alt=""
+                                        class="feedback-author__image"
+                                    />
+                                    <div class="feedback-author__info">
+                                        <p class="feedback-author__name">
+                                            Raul van Sutoyo
+                                        </p>
+                                        <p class="feedback-author__design">
+                                            UI Designer
+                                        </p>
+                                        <img
+                                            src="./assets/images/feedback-star.svg"
+                                            alt=""
+                                            class="feedback-author__star"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="articles">
+                <div class="container">
+                    <div class="articles-content">
+                        <h2 class="articles__heading">
+                            Articles & Travel Guidings
+                        </h2>
+                        <p class="articles__desc">
+                            Travel has helped us to understand the meaning of
+                            life and it has helped us become better people. Each
+                            time we travel, we see the world with new eyes.
+                        </p>
+                    </div>
+
+                    <div class="articles-media">
+                        <div class="articles-left">
+                            <a href="#!">
+                                <img
+                                    src="./assets/images/article1.jpg"
+                                    alt=""
+                                    class="articles-left__img"
+                            /></a>
+                            <div class="articles-left__info">
+                                <div class="articles-left__content">
+                                    <h3>
+                                        <a
+                                            href="#!"
+                                            class="articles-left__heading"
+                                        >
+                                            The real voyage does not consist in
+                                            seeking new
+                                        </a>
+                                    </h3>
+                                    <p class="articles-left__desc">
+                                        Excited him now natural saw passage
+                                        offices you minuter. At by asked being
+                                        court hopes.
+                                    </p>
+                                </div>
+                                <p class="articles-left__date">Jun 1, 2021</p>
+                            </div>
+                        </div>
+                        <div class="articles-right">
+                            <article class="articles-item">
+                                <a href="#!"
+                                    ><img
+                                        src="./assets/images/article2.jpg"
+                                        alt=""
+                                        class="articles-right__img"
+                                    />
+                                </a>
+                                <div class="articles-right__info">
+                                    <h3>
+                                        <a
+                                            href="#!"
+                                            class="articles-right__heading line-clamp--heading"
+                                            >Mountains is always right
+                                            destination.</a
+                                        >
+                                    </h3>
+                                    <p class="articles-right__desc line-clamp">
+                                        Farther so friends am to detract forbade
+                                    </p>
+                                    <p class="articles-right__date">
+                                        Jun 1, 2021
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="articles-item">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/images/article3.jpg"
+                                        alt=""
+                                        class="articles-right__img"
+                                    />
+                                </a>
+                                <div class="articles-right__info">
+                                    <h3>
+                                        <a
+                                            href="#!"
+                                            class="articles-right__heading line-clamp--heading"
+                                        >
+                                            Here Our's Life is either a daring
+                                            adventure.
+                                        </a>
+                                    </h3>
+                                    <p class="articles-right__desc line-clamp">
+                                        One of the programs is Save Our I have
+                                        personally.
+                                    </p>
+                                    <p class="articles-right__date">
+                                        Jun 1, 2021
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="articles-item">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/images/article4.jpg"
+                                        alt=""
+                                        class="articles-right__img"
+                                    />
+                                </a>
+                                <div class="articles-right__info">
+                                    <h3>
+                                        <a
+                                            href="#!"
+                                            class="articles-right__heading line-clamp--heading"
+                                        >
+                                            Here Our's Life is either a daring
+                                            adventure.
+                                        </a>
+                                    </h3>
+                                    <p class="articles-right__desc line-clamp">
+                                        life is either a daring adventure or
+                                        it's nothing
+                                    </p>
+                                    <p class="articles-right__date">
+                                        Jun 1, 2021
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="subscribe">
+                <div class="container">
+                    <div class="subscribe-wrap">
+                        <h2 class="subscribe__heading">
+                            Subscribe our newsletter
+                        </h2>
+                        <p class="subscribe__desc">
+                            Reciev latest news, update, and many other things
+                            every week.
+                        </p>
+
+                        <form
+                            action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                            class="subscribe-form"
+                            method="post"
+                            autocomplete="off"
+                        >
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                class="subscribe__email-form"
+                                placeholder="Enter Your email address"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                required
+                            />
+                            <button
+                                type="submit"
+                                class="subscribe__submit-form"
+                            >
+                                <div class="subscribe__icon-wrap">
+                                    <img
+                                        src="./assets/images/send.svg"
+                                        alt=""
+                                        class="subscribe-icon"
+                                    />
+                                </div>
+                            </button>
+                        </form>
+
+                        <img
+                            src="./assets/images/subdecor1.svg"
+                            alt=""
+                            class="subscribe__decor1"
+                        />
+                        <img
+                            src="./assets/images/subdecor2.svg"
+                            alt=""
+                            class="subscribe__decor2"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <!-- list 1 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Resources
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Download</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Guide Boo</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">App Directory</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 2 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Travellers
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Why Travellers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">
+                                Customer Stories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Instagram post</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 3 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Company
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item"> Travelling </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item"> About Locato </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Success</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Information</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 4 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Get in Touch
+                            </a>
+                        </h3>
+                        <p class="footer-list__desc">
+                            Feel free to get in touch with us vai email
+                        </p>
+                        <a
+                            href="mailto:email@gmail.com"
+                            class="footer-list__email"
+                        >
+                            email@gmail.com
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <a href="./index.html">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
+                    </a>
+                    <ul class="footer-bottom__list">
+                        <li>
+                            <a
+                                href="#"
+                                class="footer-bottom__item footer-bottom__item--actived"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="footer-bottom__item">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-bottom__item">
+                                Destinations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-bottom__item"> Blog </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-bottom__item"> Pages </a>
+                        </li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/facebook.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/insta.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/x.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

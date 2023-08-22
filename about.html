@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/about.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__logo">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="header__logo"
+                        />
+                    </a>
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/images/logo-mobile.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/images/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
+
+                    <nav class="header-navbar">
+                        <ul class="header-navbar__list">
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="header-navbar__item"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="header-navbar__item header-navbar__item--actived"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header-navbar__item">
+                                    Pages
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="header-action__btn btn">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="header__desc">About us</p>
+        </header>
+
+        <!-- Mobile header -->
+
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="./index.html">
+                    <img
+                        src="./assets/images/logo-mobile.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="./index.html" class="menu-item__mobile"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">About</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Destinations</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__mobile">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__show-mobile">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </body>
+</html>

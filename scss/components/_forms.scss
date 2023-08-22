@@ -1,0 +1,104 @@
+@use "../abstracts";
+@use "../base/base";
+
+.subscribe {
+    margin-top: 150px;
+
+    &-wrap {
+        position: relative;
+        padding: 70px 0;
+        border-radius: 20px;
+        background: #e8c400;
+        text-align: center;
+    }
+    &__heading {
+        @include abstracts.styleHeading;
+        color: #fff;
+    }
+
+    &__desc {
+        @include abstracts.styleDesc;
+
+        margin: 6px auto 0 auto;
+        width: 425px;
+        color: #fff;
+    }
+
+    &-form {
+        position: relative;
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+    &__email-form {
+        padding: 23px 78px 23px 26px;
+        width: 450px;
+        border-radius: 12px;
+        background: #fff;
+        color: #b3b4b5;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    &__email-form::placeholder {
+        color: #b3b4b5;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    &__submit-form {
+        padding: 0;
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translatey(-50%);
+        cursor: pointer;
+    }
+
+    &__icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f66f4d;
+        border-radius: 6px;
+    }
+
+    &-icon {
+        margin-top: 10px;
+    }
+
+    &__decor1 {
+        position: absolute;
+        top: -24px;
+        left: 79px;
+    }
+
+    &__decor2 {
+        position: absolute;
+        bottom: 77px;
+        right: 139px;
+    }
+}
+
+/*  pc */
+@media screen and (min-width: 992px) {
+}
+
+/*  Tablet and mobile*/
+@media screen and (max-width: 991.98px) {
+}
+
+/*  Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/*  Mobile */
+@media screen and (max-width: 767.98px) {
+    .subscribe {
+        display: none;
+    }
+}

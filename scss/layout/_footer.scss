@@ -70,6 +70,7 @@
     }
 
     &-bottom__item {
+        padding: 6px 0;
         color: #6a6f77;
         font-size: 1.4rem;
         font-weight: 500;
@@ -98,6 +99,10 @@
         height: 46px;
         border-radius: 50%;
         border: 1px solid #bcbcbc;
+    }
+
+    &__icon-wrap:hover {
+        background-color: #ebebeb;
     }
 }
 

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Safe Tour</title>
+
+        <link rel="stylesheet" href="./assets/css/destination.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__logo">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="header__logo"
+                        />
+                    </a>
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/images/logo-mobile.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/images/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
+
+                    <nav class="header-navbar">
+                        <ul class="header-navbar__list">
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="header-navbar__item"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./about.html"
+                                    class="header-navbar__item"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="header-navbar__item header-navbar__item--actived"
+                                >
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./blog.html"
+                                    class="header-navbar__item"
+                                >
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./pages.html"
+                                    class="header-navbar__item"
+                                >
+                                    Pages
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="header-action__btn btn">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__info">
+                <p class="header__destination">Destinations</p>
+                <p class="header__desc">Explore Tours By Destinations</p>
+            </div>
+        </header>
+
+        <!-- Mobile header -->
+
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="#!">
+                    <img
+                        src="./assets/images/logo-mobile.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="./index.html" class="menu-item__mobile">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="menu-item__mobile">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item__mobile">Destinations</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html" class="menu-item__mobile">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./pages.html" class="menu-item__mobile">
+                            Pages
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__show-mobile">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="media">
+                <div class="container">
+                    <div class="media-wrap">
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination1.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Switzerland</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination2.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Maldives</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination3.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Indonesia</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination4.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Bangladesh</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination5.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Thailand</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination6.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Turkey</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination7.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Brazil</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination8.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Morocco</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination9.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Dubai</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination10.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Ecuador</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination11.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Colombia</p>
+                        </a>
+
+                        <a href="#!" class="media-item">
+                            <img
+                                src="./assets/destination-images/destination12.jpg"
+                                alt=""
+                                class="media__img"
+                            />
+                            <p class="media__desc">Agentina</p>
+                        </a>
+                    </div>
+                    <div class="media-action">
+                        <a href="#!" class="medi-btn btn">See more</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <!-- list 1 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Resources
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Download</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Guide Boo</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">App Directory</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 2 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Travellers
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Why Travellers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">
+                                Customer Stories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Instagram post</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 3 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Company
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item"> Travelling </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item"> About Locato </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Success</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Information</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 4 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Get in Touch
+                            </a>
+                        </h3>
+                        <p class="footer-list__desc">
+                            Feel free to get in touch with us vai email
+                        </p>
+                        <a
+                            href="mailto:email@gmail.com"
+                            class="footer-list__email"
+                        >
+                            email@gmail.com
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <a href="./index.html">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
+                    </a>
+                    <ul class="footer-bottom__list">
+                        <li>
+                            <a
+                                href="./index.html"
+                                class="footer-bottom__item footer-bottom__item--actived"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="footer-bottom__item">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-bottom__item">
+                                Destinations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./blog.html" class="footer-bottom__item">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./pages.html" class="footer-bottom__item">
+                                Pages
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/facebook.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/insta.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/x.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

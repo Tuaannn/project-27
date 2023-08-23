@@ -1,5 +1,7 @@
+@use "../base";
 @use "../abstracts";
 @use "../components/forms";
+@use "../layout";
 
 .hero {
     margin-top: 50px;

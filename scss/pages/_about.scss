@@ -1,9 +1,8 @@
+@use "../base";
+@use "../abstracts";
 @use "../layout/header";
 @use "../layout/footer";
 @use "../components/forms";
-
-@use "../abstracts";
-@use "../base";
 
 .header {
     position: relative;
@@ -133,7 +132,7 @@
         }
 
         &__heading {
-            max-width: 335px;
+            max-width: 100%;
             font-size: 4rem;
             line-height: 1.25;
         }
@@ -147,7 +146,7 @@
 
         &__image {
             margin-top: 30px;
-            width: 335px;
+            width: 100%;
             height: 294px;
         }
 

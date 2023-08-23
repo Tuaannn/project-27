@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Safe Tour</title>
+        <link rel="stylesheet" href="./assets/css/blog.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__logo">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="header__logo"
+                        />
+                    </a>
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/images/logo-mobile.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/images/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
+
+                    <nav class="header-navbar">
+                        <ul class="header-navbar__list">
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="header-navbar__item"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./about.html"
+                                    class="header-navbar__item"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./destination.html"
+                                    class="header-navbar__item"
+                                >
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="header-navbar__item header-navbar__item--actived"
+                                >
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="./pages.html"
+                                    class="header-navbar__item"
+                                >
+                                    Pages
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="header-action__btn btn">
+                            Contact us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile header -->
+
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="#!">
+                    <img
+                        src="./assets/images/logo-mobile.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="./index.html" class="menu-item__mobile">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="menu-item__mobile">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./destination.html" class="menu-item__mobile"
+                            >Destinations</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item__mobile">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./pages.html" class="menu-item__mobile">
+                            Pages
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-item__show-mobile">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="blog">
+                <div class="container">
+                    <div class="blog-heading">
+                        <h1 class="blog-heading__title">
+                            Welcome to our Travel Blog
+                        </h1>
+                        <img
+                            src="./assets/blog-images/blog-decor.svg"
+                            alt=""
+                            class="blog-heading__decor"
+                        />
+
+                        <img
+                            src="./assets/blog-images/mobile decor.svg"
+                            alt=""
+                            class="blog-heading__mobile-decor"
+                        />
+                    </div>
+                    <div class="blog-recent">
+                        <div class="blog-recent-left">
+                            <a href="./blog-detail.html"
+                                ><img
+                                    src="./assets/blog-images/blog-recent.jpg"
+                                    alt=""
+                                    class="blog-recent__img"
+                                />
+                            </a>
+                            <h2>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="blog-recent__heading"
+                                >
+                                    Exploring Argentina and Chile by Bus
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="blog-recent-right">
+                            <form
+                                action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                                class="blog-recent-form"
+                            >
+                                <input
+                                    type="search"
+                                    name="search"
+                                    id="search"
+                                    placeholder="Search Blog"
+                                    class="blog-recent__input"
+                                    autocomplete="off"
+                                />
+                                <button
+                                    type="submit"
+                                    class="blog-recent__submit btn"
+                                >
+                                    Search
+                                </button>
+                            </form>
+
+                            <p class="blog-recent__desc">Recent Blog</p>
+
+                            <div class="blog-recent-list">
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent2.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                        >
+                                            7 Tips For Nomads On A Budget Trips
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent1.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                        >
+                                            Luxury travel: the most remote
+                                            resorts in Philippines
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent3.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                            >Top travel destinations the experts
+                                            say
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel">
+                <div class="container">
+                    <div class="travel-list">
+                        <!-- item 1 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel1.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3 class="line-clamp">
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                >
+                                    On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. Salvia nihil...
+                            </p>
+
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                                >Read more</a
+                            >
+                        </div>
+
+                        <!-- item 2 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel2.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                    >On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. Salvia esse
+                                nihil...
+                            </p>
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                                >Read more</a
+                            >
+                        </div>
+
+                        <!-- item 3 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel3.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                    >On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. Salvia esse
+                                nihil...
+                            </p>
+
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                                >Read more</a
+                            >
+                        </div>
+
+                        <!-- item 4 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel4.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                    >On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. Salvia esse
+                                nihil...
+                            </p>
+
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                                >Read more</a
+                            >
+                        </div>
+
+                        <!-- item 5 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel5.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                    >On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. Salvia esse
+                                nihil...
+                            </p>
+
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                                >Read more</a
+                            >
+                        </div>
+
+                        <!-- item 6 -->
+                        <div class="travel-item">
+                            <a href="./blog-detail.html">
+                                <img
+                                    src="./assets/blog-images/travel6.jpg"
+                                    alt=""
+                                    class="travel-item__img"
+                                />
+                            </a>
+                            <h3>
+                                <a
+                                    href="./blog-detail.html"
+                                    class="travel-item__heading line-clamp"
+                                    >On the Shores of a Pink Lake in Australia
+                                </a>
+                            </h3>
+                            <p class="travel-item__desc text-line-clamp">
+                                Meh synth Schlitz, tempor duis single-origin
+                                coffee ea next level ethnic fingerstache fanny
+                                pack nostrud. Photo booth anim 8-bit hella, PBR
+                                3 wolf moon beard Helvetica. nihil... Lorem
+                                ipsum dolor sit amet consectetur, adipisicing
+                                elit. Et, atque!
+                            </p>
+
+                            <a
+                                href="./blog-detail.html"
+                                class="travel-item__link"
+                            >
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                    <div class="travel-action">
+                        <a href="#!" class="travel__btn btn">See more</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <!-- list 1 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Resources
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Download</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Guide Boo</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">App Directory</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 2 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Travellers
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item">Why Travellers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">
+                                Customer Stories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Instagram post</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 3 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Company
+                            </a>
+                        </h3>
+                        <li>
+                            <a href="#!" class="footer-item"> Travelling </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item"> About Locato </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Success</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footer-item">Information</a>
+                        </li>
+                    </ul>
+
+                    <!-- list 4 -->
+                    <ul class="footer-list">
+                        <h3>
+                            <a href="#!" class="footer-list__heading">
+                                Get in Touch
+                            </a>
+                        </h3>
+                        <p class="footer-list__desc">
+                            Feel free to get in touch with us vai email
+                        </p>
+                        <a
+                            href="mailto:email@gmail.com"
+                            class="footer-list__email"
+                        >
+                            email@gmail.com
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <a href="./index.html">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
+                    </a>
+                    <ul class="footer-bottom__list">
+                        <li>
+                            <a
+                                href="./index.html"
+                                class="footer-bottom__item footer-bottom__item--actived"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="footer-bottom__item">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="./destination.html"
+                                class="footer-bottom__item"
+                            >
+                                Destinations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-bottom__item"> Blog </a>
+                        </li>
+                        <li>
+                            <a href="./pages.html" class="footer-bottom__item">
+                                Pages
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/facebook.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/insta.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+
+                        <a href="#!" class="footer__icon-wrap">
+                            <img
+                                src="./assets/images/x.svg"
+                                alt=""
+                                class="footer__icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

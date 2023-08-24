@@ -595,6 +595,135 @@ h6 {
     color: #2d3134;
   }
 }
+.comming {
+  padding: 40px 140px 0 88px;
+  display: flex;
+  align-items: center;
+  column-gap: 140px;
+}
+.comming__heading {
+  margin-bottom: 40px;
+  color: #2d3134;
+  font-size: 6.2rem;
+  font-weight: 600;
+  line-height: 1.11;
+}
+.comming-wrap {
+  display: flex;
+  column-gap: 50px;
+}
+.comming__time {
+  color: #ff7b29;
+  font-family: Poppins, sans-serif;
+  font-size: 6.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.comming__time span {
+  display: block;
+  color: #676a6c;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: center;
+}
+.comming__form {
+  margin-top: 80px;
+}
+.comming__label {
+  margin-bottom: 30px;
+  display: inline-block;
+  color: #2d3134;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.comming__input {
+  padding: 21px 20px;
+  width: 327px;
+  height: 66px;
+  border-radius: 12px;
+  border: 1px solid #ececec;
+  background: #fff;
+  color: #676a6c;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.comming__input::placeholder {
+  color: #676a6c;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.comming__submit-form {
+  display: flex;
+  column-gap: 20px;
+}
+.comming__submit {
+  cursor: pointer;
+}
+
+/*  pc */
+@media screen and (min-width: 992px) {
+  .comming__mobile-img {
+    display: none;
+  }
+}
+/*  Tablet and mobile*/
+/*  Tablet */
+/*  Mobile */
+@media screen and (max-width: 767.98px) {
+  .comming {
+    padding: 40px 24px 0 24px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .comming__img {
+    display: none;
+  }
+  .comming__heading {
+    margin-bottom: 30px;
+    font-size: 4rem;
+    line-height: 1.25;
+  }
+  .comming-wrap {
+    column-gap: 24px;
+  }
+  .comming__time {
+    font-size: 4rem;
+    line-height: 1.25;
+  }
+  .comming__time span {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .comming__form {
+    margin-top: 40px;
+  }
+  .comming__label {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .comming__input {
+    padding: 16px;
+    width: 327px;
+    height: 58px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    line-height: 1.62;
+  }
+  .comming__input::placeholder {
+    font-size: 1.6rem;
+    line-height: 1.62;
+  }
+  .comming__submit-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+}
 .hero {
   margin-top: 50px;
 }

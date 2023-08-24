@@ -136,8 +136,8 @@
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="header-navbar__item header-navbar__item--actived"
+                                    href="./destination.html"
+                                    class="header-navbar__item"
                                 >
                                     Destinations
                                 </a>
@@ -152,8 +152,8 @@
                             </li>
                             <li>
                                 <a
-                                    href="./pages.html"
-                                    class="header-navbar__item"
+                                    href="#"
+                                    class="header-navbar__item header-navbar__item--actived"
                                 >
                                     Pages
                                 </a>
@@ -166,10 +166,6 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="header__info">
-                <p class="header__destination">Destinations</p>
-                <p class="header__desc">Explore Tours By Destinations</p>
             </div>
         </header>
 
@@ -205,15 +201,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="menu-item__mobile">Destinations</a>
+                        <a href="./destination.html" class="menu-item__mobile"
+                            >Destinations</a
+                        >
                     </li>
                     <li>
                         <a href="./blog.html" class="menu-item__mobile">Blog</a>
                     </li>
                     <li>
-                        <a href="./pages.html" class="menu-item__mobile">
-                            Pages
-                        </a>
+                        <a href="#" class="menu-item__mobile"> Pages </a>
                     </li>
                     <li>
                         <a href="#!" class="menu-item__show-mobile">
@@ -223,7 +219,237 @@
                 </ul>
             </div>
         </header>
-        <main></main>
+        <main>
+            <div class="hero">
+                <div class="container">
+                    <h1 class="hero__heading">
+                        Tour
+                        <img
+                            src="./assets/pages/hero-decor.svg"
+                            alt=""
+                            class="hero__decor"
+                        />
+                        <img
+                            src="./assets/pages/hero-mobile-decor.svg"
+                            alt=""
+                            class="hero__mobile-decor"
+                        />
+                    </h1>
+                    <div class="hero__inner">
+                        <form
+                            action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                            class="hero-form"
+                            autocomplete="off"
+                            method="post"
+                        >
+                            <div class="hero-form__item">
+                                <label for="location" class="hero-form__label">
+                                    Location
+                                </label>
+                                <select
+                                    name="location"
+                                    id="location"
+                                    class="hero-form__select"
+                                >
+                                    <option value="Bali, Indonesia">
+                                        Bali, Indonesia
+                                    </option>
+                                    <option value="Barcelona">Barcelona</option>
+                                    <option value="Hồ Chí Minh">
+                                        Hồ Chí Minh
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="hero-form__item">
+                                <label for="City" class="hero-form__label">
+                                    City
+                                </label>
+                                <select
+                                    name="City"
+                                    id="City"
+                                    class="hero-form__select"
+                                >
+                                    <option value="Bali, Indonesia">
+                                        Prambanan
+                                    </option>
+                                    <option value="Barcelona">Barcelona</option>
+                                    <option value="Hồ Chí Minh">
+                                        Hồ Chí Minh
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="hero-form__item">
+                                <label for="Guest" class="hero-form__label">
+                                    Guest
+                                </label>
+                                <select
+                                    name="Guest"
+                                    id="Guest"
+                                    class="hero-form__select"
+                                >
+                                    <option value="8 Persons">8 Persons</option>
+                                    <option value="10 Persons">
+                                        10 Persons
+                                    </option>
+                                    <option value="15 Persons">
+                                        15 Persons
+                                    </option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="hero-form__submit btn">
+                                <img
+                                    src="./assets/images/search form.svg"
+                                    alt=""
+                                    class="hero-form__search"
+                                />
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="container">
+                    <div class="media-list">
+                        <!-- item 1 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media1.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Indonesia
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 2 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media2.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Thiland
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 3 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media3.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Dubai
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 4 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media4.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Maldives
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 5 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media5.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Dubai
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- item 6 -->
+                        <div class="media-item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/pages/media6.jpg"
+                                    alt=""
+                                    class="media__img"
+                                />
+                            </a>
+                            <div class="media-content">
+                                <p>
+                                    <a href="#!" class="media__local">
+                                        Bangladesh
+                                    </a>
+                                </p>
+                                <p class="media__detail">
+                                    9 days
+                                    <span>$6,500</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <footer class="footer">
             <div class="container">
                 <div class="footer-wrap">
@@ -333,7 +559,10 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="footer-bottom__item">
+                            <a
+                                href="./destination.html"
+                                class="footer-bottom__item"
+                            >
                                 Destinations
                             </a>
                         </li>
@@ -343,9 +572,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./pages.html" class="footer-bottom__item">
-                                Pages
-                            </a>
+                            <a href="#" class="footer-bottom__item"> Pages </a>
                         </li>
                     </ul>
                     <div class="footer-social">

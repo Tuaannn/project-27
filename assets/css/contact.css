@@ -675,14 +675,16 @@ h6 {
     line-height: 1.25;
   }
 }
+.contact {
+  background: linear-gradient(to right, #ececec 50%, transparent 50%);
+}
 .contact-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 .contact-content {
-  background-color: #ececec;
-  padding: 239px 0 239px 179px;
+  padding: 239px 0 239px 0px;
 }
 .contact__item {
   margin-bottom: 20px;
@@ -719,12 +721,15 @@ h6 {
   height: 114px;
   resize: none;
 }
+.contact__submit {
+  margin-top: 10px;
+  width: 159px;
+}
 
 .map {
   position: relative;
   width: 100%;
   height: 510px;
-  background-color: red;
 }
 .map iframe {
   width: 100%;
@@ -732,6 +737,55 @@ h6 {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+/*  pc */
+/*  Tablet and mobile*/
+/*  Tablet */
+/*  Mobile */
+@media screen and (max-width: 767.98px) {
+  .contact {
+    background: linear-gradient(to right, transparent 50%, transparent 50%);
+  }
+  .contact-wrap {
+    margin-top: 60px;
+    grid-template-columns: 1fr;
+  }
+  .contact-content {
+    background-color: #fff;
+    padding: 0;
+  }
+  .contact-form {
+    padding: 0;
+    margin-top: 40px;
+    row-gap: 16px;
+  }
+  .contact__text, .contact__mail, .contact__subject, .contact__area {
+    padding: 20px;
+    width: 100%;
+    height: 58px;
+    border-radius: 10px;
+    color: #676a6c;
+    font-size: 1.6rem;
+    line-height: 1.625;
+  }
+  .contact__area {
+    width: 100%;
+    height: 90px;
+  }
+  .contact__submit {
+    margin-top: 8px;
+  }
+  .map {
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    height: 140px;
+  }
+  .map iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */

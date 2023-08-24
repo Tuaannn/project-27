@@ -55,6 +55,7 @@
 // contact
 
 .contact {
+    background: linear-gradient(to right, #ececec 50%, transparent 50%);
     &-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -62,8 +63,7 @@
     }
 
     &-content {
-        background-color: #ececec;
-        padding: 239px 0 239px 179px;
+        padding: 239px 0 239px 0px;
     }
 
     &__item {
@@ -117,13 +117,18 @@
         height: 114px;
         resize: none;
     }
+
+    &__submit {
+        margin-top: 10px;
+        width: 159px;
+        // line-height: 58px;
+    }
 }
 
 .map {
     position: relative;
     width: 100%;
     height: 510px;
-    background-color: red;
 
     iframe {
         width: 100%;
@@ -131,5 +136,81 @@
         position: absolute;
         left: 0;
         top: 0;
+    }
+}
+
+/*  pc */
+@media screen and (min-width: 992px) {
+}
+
+/*  Tablet and mobile*/
+@media screen and (max-width: 991.98px) {
+}
+
+/*  Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/*  Mobile */
+@media screen and (max-width: 767.98px) {
+    .contact {
+        background: linear-gradient(to right, transparent 50%, transparent 50%);
+        &-wrap {
+            margin-top: 60px;
+            grid-template-columns: 1fr;
+        }
+
+        &-content {
+            background-color: #fff;
+            padding: 0;
+        }
+
+        &-form {
+            padding: 0;
+            margin-top: 40px;
+
+            row-gap: 16px;
+        }
+
+        &__text {
+            padding: 20px;
+            width: 100%;
+            height: 58px;
+            border-radius: 10px;
+
+            color: #676a6c;
+            font-size: 1.6rem;
+            line-height: 1.625;
+        }
+
+        &__mail {
+            @extend.contact__text;
+        }
+
+        &__subject {
+            @extend.contact__text;
+        }
+
+        &__area {
+            @extend.contact__text;
+            width: 100%;
+            height: 90px;
+        }
+
+        &__submit {
+            margin-top: 8px;
+        }
+    }
+
+    .map {
+        margin-top: 60px;
+        position: relative;
+        width: 100%;
+        height: 140px;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
     }
 }

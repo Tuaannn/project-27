@@ -18,6 +18,11 @@
     overflow: hidden;
 }
 
+.header-navbar__list {
+    position: relative;
+    z-index: 2;
+}
+
 .blog {
     &-heading {
         position: relative;

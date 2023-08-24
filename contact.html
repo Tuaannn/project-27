@@ -4,11 +4,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Safe Tour</title>
-        <link rel="stylesheet" href="./assets/css/pages.css" />
+        <link rel="stylesheet" href="./assets/css/contact.css" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap"
             rel="stylesheet"
         />
         <link
@@ -88,7 +89,7 @@
         />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body>
+    <body style="height: 5000px">
         <header class="header">
             <div class="container">
                 <div class="header__inner">
@@ -152,7 +153,7 @@
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="./pages.html"
                                     class="header-navbar__item header-navbar__item--actived"
                                 >
                                     Pages
@@ -167,6 +168,7 @@
                     </div>
                 </div>
             </div>
+            <h1 class="header__title">Contact us</h1>
         </header>
 
         <!-- Mobile header -->
@@ -182,7 +184,7 @@
             <label for="menu-checkbox" class="menu-overlay"></label>
 
             <div class="menu-drawer">
-                <a href="./index.html">
+                <a href="#!">
                     <img
                         src="./assets/images/logo-mobile.svg"
                         alt=""
@@ -191,9 +193,9 @@
                 </a>
                 <ul class="menu-list__mobile">
                     <li>
-                        <a href="./index.html" class="menu-item__mobile">
-                            Home
-                        </a>
+                        <a href="./index.html" class="menu-item__mobile"
+                            >Home</a
+                        >
                     </li>
                     <li>
                         <a href="./about.html" class="menu-item__mobile">
@@ -201,9 +203,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./destination.html" class="menu-item__mobile"
-                            >Destinations</a
-                        >
+                        <a href="./destination.html" class="menu-item__mobile">
+                            Destinations
+                        </a>
                     </li>
                     <li>
                         <a href="./blog.html" class="menu-item__mobile">Blog</a>
@@ -220,236 +222,159 @@
             </div>
         </header>
         <main>
-            <div class="hero">
-                <div class="container">
-                    <h1 class="hero__heading">
-                        Tour
-                        <img
-                            src="./assets/pages/hero-decor.svg"
-                            alt=""
-                            class="hero__decor"
-                        />
-                        <img
-                            src="./assets/pages/hero-mobile-decor.svg"
-                            alt=""
-                            class="hero__mobile-decor"
-                        />
-                    </h1>
-                    <div class="hero__inner">
-                        <form
-                            action="https://api-gateway.fullstack.edu.vn/action_page.php"
-                            class="hero-form"
-                            autocomplete="off"
-                            method="post"
-                        >
-                            <div class="hero-form__item">
-                                <label for="location" class="hero-form__label">
-                                    Location
-                                </label>
-                                <select
-                                    name="location"
-                                    id="location"
-                                    class="hero-form__select"
-                                >
-                                    <option value="Bali, Indonesia">
-                                        Bali, Indonesia
-                                    </option>
-                                    <option value="Barcelona">Barcelona</option>
-                                    <option value="Hồ Chí Minh">
-                                        Hồ Chí Minh
-                                    </option>
-                                </select>
-                            </div>
-
-                            <div class="hero-form__item">
-                                <label for="City" class="hero-form__label">
-                                    City
-                                </label>
-                                <select
-                                    name="City"
-                                    id="City"
-                                    class="hero-form__select"
-                                >
-                                    <option value="Bali, Indonesia">
-                                        Prambanan
-                                    </option>
-                                    <option value="Barcelona">Barcelona</option>
-                                    <option value="Hồ Chí Minh">
-                                        Hồ Chí Minh
-                                    </option>
-                                </select>
-                            </div>
-
-                            <div class="hero-form__item">
-                                <label for="Guest" class="hero-form__label">
-                                    Guest
-                                </label>
-                                <select
-                                    name="Guest"
-                                    id="Guest"
-                                    class="hero-form__select"
-                                >
-                                    <option value="8 Persons">8 Persons</option>
-                                    <option value="10 Persons">
-                                        10 Persons
-                                    </option>
-                                    <option value="15 Persons">
-                                        15 Persons
-                                    </option>
-                                </select>
-                            </div>
-
-                            <button type="submit" class="hero-form__submit btn">
-                                <img
-                                    src="./assets/images/search form.svg"
-                                    alt=""
-                                    class="hero-form__search"
+            <div class="contact">
+                <div class="contact-wrap">
+                    <div class="contact-content">
+                        <div class="contact__item">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M17.9024 8.85107L13.4591 12.4641C12.6196 13.1301 11.4384 13.1301 10.5989 12.4641L6.11816 8.85107"
+                                    stroke="#2D3134"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
                                 />
-                                Search
-                            </button>
-                        </form>
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z"
+                                    stroke="#2D3134"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+
+                            <a
+                                href="mailto:2369 Robinson Lane Jackson, OH 45640"
+                                >2369 Robinson Lane Jackson, OH 45640</a
+                            >
+                        </div>
+                        <div class="contact__item">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z"
+                                    stroke="#2D3134"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+
+                            <a href="tel:(+88) 017 000 00000 ">
+                                (+88) 017 000 00000
+                            </a>
+                        </div>
+                        <div class="contact__item">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z"
+                                    stroke="#2D3134"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z"
+                                    stroke="#2D3134"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+
+                            <a
+                                href="mailto:2369 Robinson Lane Jackson, OH 45640"
+                            >
+                                Info@example.com
+                            </a>
+                        </div>
                     </div>
+
+                    <form
+                        action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                        class="contact-form"
+                    >
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="contact__text"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="contact__mail"
+                            placeholder="Email"
+                            autocomplete="off"
+                            required
+                        />
+                        <input
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            class="contact__subject"
+                            placeholder="Subject"
+                            autocomplete="off"
+                            required
+                        />
+
+                        <textarea
+                            name="subject"
+                            id="subject"
+                            class="contact__area"
+                            placeholder="Message"
+                            autocomplete="off"
+                            required
+                        ></textarea>
+
+                        <button type="submit" class="contact__submit btn">
+                            Subscribe
+                        </button>
+                    </form>
                 </div>
             </div>
-
-            <div class="media">
-                <div class="container">
-                    <div class="media-list">
-                        <!-- item 1 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media1.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Indonesia
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- item 2 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media2.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Thiland
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- item 3 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media3.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Dubai
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- item 4 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media4.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Maldives
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- item 5 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media5.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Dubai
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- item 6 -->
-                        <div class="media-item">
-                            <a href="./error.html">
-                                <img
-                                    src="./assets/pages/media6.jpg"
-                                    alt=""
-                                    class="media__img"
-                                />
-                            </a>
-                            <div class="media-content">
-                                <p>
-                                    <a href="./error.html" class="media__local">
-                                        Bangladesh
-                                    </a>
-                                </p>
-                                <p class="media__detail">
-                                    9 days
-                                    <span>$6,500</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.5893575599625!2d107.88375307463323!3d13.061790212895424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzQyLjQiTiAxMDfCsDUzJzEwLjgiRQ!5e0!3m2!1svi!2s!4v1692886456752!5m2!1svi!2s"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
             </div>
         </main>
+
         <footer class="footer">
             <div class="container">
                 <div class="footer-wrap">
@@ -537,7 +462,7 @@
                     </ul>
                 </div>
                 <div class="footer-bottom">
-                    <a href="./index.html">
+                    <a href="#">
                         <img
                             src="./assets/images/logo.svg"
                             alt=""
@@ -572,7 +497,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="footer-bottom__item"> Pages </a>
+                            <a href="./pages.html" class="footer-bottom__item">
+                                Pages
+                            </a>
                         </li>
                     </ul>
                     <div class="footer-social">

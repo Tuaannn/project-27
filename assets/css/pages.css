@@ -196,7 +196,8 @@ a {
 
 button,
 select,
-input {
+input,
+textarea {
   outline: none;
   border: none;
   background-color: transparent;
@@ -681,12 +682,14 @@ h6 {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1;
+  user-select: none;
 }
 .hero-form__select {
   color: #697280;
   font-size: 1.4rem;
   line-height: 1;
   margin-left: -4px;
+  cursor: pointer;
 }
 .hero-form__submit {
   display: flex;
